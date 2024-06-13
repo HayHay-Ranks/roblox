@@ -21,7 +21,7 @@ if not game:IsLoaded() then
 end
 
 local ACL_LoadTime = tick()
-local NotificationTitle = "Thunder Clients's ACL"
+local NotificationTitle = "Anthony's ACL"
 
 local OldCoreTypeSettings = {}
 local WhitelistedCoreTypes = {
@@ -480,6 +480,6 @@ if CoreHook then
 end
 setreadonly(Metatable, true)
 
-Notify(NotificationTitle, "Thunder Client", 15)
-print(string.format("Thunder Client's Chat Bypasser has loaded in %s seconds.", string.format("%.2f", tostring(tick() - ACL_LoadTime))))
+Notify(NotificationTitle, "Anti Chat & Screenshot Logger Loaded!", 15)
+print(string.format("AnthonyIsntHere's Anti Chat-Logger has loaded in %s seconds.", string.format("%.2f", tostring(tick() - ACL_LoadTime))))
 x1.00
