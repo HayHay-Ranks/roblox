@@ -206,7 +206,7 @@ do --// Main
             })
 
             Sections.Aimbot:AddToggle('VisualiseRange', {
-                Text = 'Visualise Range',
+                Text = 'Show FOV',
                 Default = false,
                 Tooltip = nil,
             
@@ -215,21 +215,11 @@ do --// Main
                 end
             }):AddColorPicker('VisualiseRangeColor', {
                 Default = Color3.fromRGB(255, 255, 255),
-                Title = 'Range Color',
+                Title = 'FOV Color',
                 Transparency = 0,
             
                 Callback = function(Value)
                     FOVCircle.Color = Value
-                end
-            })
-
-            Sections.Aimbot:AddToggle('DynamicRange', {
-                Text = 'Dynamic Range',
-                Default = false,
-                Tooltip = nil,
-            
-                Callback = function(Value)
-                    FeatureTable.Combat.SilentAim.DynamicFOV = Value
                 end
             })
             Sections.Aimbot:AddSlider('AimbotRange', {
