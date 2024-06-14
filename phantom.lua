@@ -1,11 +1,7 @@
---// Made by @dementia enjoyer
---// Forgive me for the very shit code, gonna rewrite dis later and actually try to make it look good lol
---// join .gg/syAGdFKAZQ for updates and more scripts like this <3 \\--
-
 local repo = 'https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main/'
 
 local Library = loadstring(game:HttpGet(repo .. 'Library.lua'))()
-local ThemeManager = loadstring(game:HttpGet(repo .. 'addons/ThemeManager.lua'))()
+local ThemeManager = loadstring(game:HttpGet('https://raw.githubusercontent.com/HayHay-Ranks/roblox/main/themes.lua'))()
 local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
 
 local Window = Library:CreateWindow({
