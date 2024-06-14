@@ -1231,7 +1231,7 @@ do --// Main
                                                     [Enum.KeyCode.D] = Vector3New(-LookVector.Z, 0, LookVector.X),
                                                     [Enum.KeyCode.A] = Vector3New(LookVector.Z, 0, -LookVector.X),
                                                     [Enum.KeyCode.Space] = Vector3New(0, 5 * 5, 0),
-                                                    [Enum.KeyCode.LeftControl] = Vector3New(0, -5 * 5, 0)
+                                                    [Enum.KeyCode.Insert] = Vector3New(0, -5 * 5, 0)
                                                 }
                                                 
                                                 for Key, Dir in Directions do
