@@ -189,7 +189,6 @@ end
 --// Rest
 
 do --// Main
-    Library:Notify("I am aware of the optimization issues, they will be fixed in the near future", 5)
 
     do --// Elements
 
