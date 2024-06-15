@@ -222,8 +222,8 @@ do --// Main
                 end
             })
             Sections.Aimbot:AddSlider('AimbotRange', {
-                Text = 'Range',
-                Default = 0,
+                Text = 'FOV Size',
+                Default = 250,
                 Min = 0,
                 Max = 1000,
                 Rounding = 1,
