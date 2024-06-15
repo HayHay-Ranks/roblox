@@ -619,7 +619,7 @@ do --// Main
 
             Sections.Player:AddSlider('FlySpeed', {
                 Text = 'Fly Speed',
-                Default = 0,
+                Default = 25,
                 Min = 0,
                 Max = 50,
                 Rounding = 1,
